@@ -38,7 +38,7 @@ There are 2 arguments to be passed:
 #### To run the App
 
 ```erlang
-(Before running, Goto project2 directory, where mix.exs is present)
+
 $ cd Project3
 $ c(mainProcess).
 $ mainProcess:startProcess().
