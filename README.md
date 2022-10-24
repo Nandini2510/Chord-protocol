@@ -9,7 +9,7 @@ Implement the network join and routing as described in the Chord MIT paper using
 
 ## Contents of this file
 
-Flow of Program, Prerequisites, Instruction Section, What is working, Largest Network we managed to deal with
+Flow of Program, Prerequisites, Implementation, Instruction Section, What is working, Largest Network we managed to deal with
 
 ## Flow of Program
 
@@ -25,6 +25,12 @@ There are 2 arguments to be passed:
 ## Prerequisites
 
 #### Erlang OTP 21(10.0.1)
+
+## Implementation
+
+1) Calculating Node Ids : We have used SHA-1 function i.e hashing to calculate ids of nodes which act as an actor using chord protocol
+2) Finger Table : Each node keeps track of the m entries that is of its successor and predecessor nodes. The value of successor is calculated using 
+(n+2^i-1) mod m) formula for ith node. Using this values, any node can look up for a key.
 
 
 ## Instruction section
@@ -51,9 +57,9 @@ After completion the average number of hops count is displayed.
 
 
 
-##Largest Network we managed to deal with:
+## Largest Network we managed to deal with:
 
-The largest network our program ran successfully was for 10000 nodes.
+The largest network our program ran successfully was for 20000 nodes.
 
 
 
