@@ -60,8 +60,8 @@ After completion the average number of hops count is displayed.
 ## Largest Network we managed to deal with:
 The largest network our program ran successfully was for 20000 nodes, and 150 requests per node. 
 ## Input:
-Number of nodes: 20000
-Number of requests per node: 150
+* Number of nodes: 20000
+* Number of requests per node: 150
 ## Output: 
 Average number of hops = 7.0010
 
