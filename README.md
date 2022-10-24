@@ -47,7 +47,6 @@ $ Enter <No. of Nodes> <No. of requests>
 SAMPLE O/P-> Average HopCount 
 .................................................................................................................................................................
 
-Time utilized to converge : xxxx milliseconds
 ```
 Run the app, pass in No. of Nodes & No. of requests. The console prints the Number of hops, key values and nodes.
 
