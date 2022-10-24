@@ -40,8 +40,9 @@ There are 2 arguments to be passed:
 ```erlang
 
 $ cd Project3
-$ c(mainProcess).
-$ mainProcess:startProcess().
+$c(serverforchordprotocol).
+$c(actorforchordprotocol).
+$serverforschordprotocol:startServer().
 $ Enter <No. of Nodes> <No. of requests> 
 SAMPLE O/P-> Average HopCount 
 .................................................................................................................................................................
